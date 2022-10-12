@@ -89,3 +89,4 @@ func (i *InoreaderGithubActions) HTTPAttach(router *mux.Router) error {
 func (i *InoreaderGithubActions) Jobs() ([]apis.Job, error) {
 	return []apis.Job{}, nil
 }
+func (i *InoreaderGithubActions) ExternalJobsFuncSet(f func(job apis.ExternalJob) error) {}

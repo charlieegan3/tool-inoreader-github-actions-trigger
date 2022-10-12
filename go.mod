@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/Jeffail/gabs/v2 v2.6.1
-	github.com/charlieegan3/toolbelt v0.0.0-20221005161858-03722f2fe6d4
+	github.com/charlieegan3/toolbelt v0.0.0-20221012131106-c0a8a7937c75
 	github.com/gorilla/mux v1.8.0
 	github.com/spf13/viper v1.13.0
 )
