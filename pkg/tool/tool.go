@@ -33,6 +33,7 @@ func (i *InoreaderGithubActions) FeatureSet() apis.FeatureSet {
 func (i *InoreaderGithubActions) HTTPPath() string {
 	return i.Name()
 }
+func (i *InoreaderGithubActions) HTTPHost() string { return "" }
 
 func (i *InoreaderGithubActions) SetConfig(config map[string]any) error {
 	cfg := gabs.Wrap(config)
